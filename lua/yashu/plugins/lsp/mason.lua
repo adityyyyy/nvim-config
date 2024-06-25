@@ -31,13 +31,13 @@ return {
 				"html",
 				"cssls",
 				"tailwindcss",
-				"svelte",
 				"lua_ls",
 				"graphql",
 				"emmet_ls",
 				"prismals",
 				"gopls",
 				"pyright",
+				"clangd",
 			},
 		})
 
@@ -49,9 +49,8 @@ return {
 				"black", -- python formatter
 				"pylint",
 				"eslint_d",
-				"gofumpt", -- go formatter
-				"goimports", -- go formatter
-				"golines", -- go formatter
+				"clang-format",
+				"codelldb",
 			},
 		})
 	end,
